@@ -1,0 +1,18 @@
+/*
+===========================================
+Create Databse and Schemas
+
+===========================================
+*/
+
+USE master;
+--creating database
+CREATE DATABASE Datawarehouse;
+
+USE Datawarehouse;
+--creating schemas
+CREATE SCHEMA bronze;
+GO
+CREATE SCHEMA silver;
+GO
+CREATE SCHEMA gold;
